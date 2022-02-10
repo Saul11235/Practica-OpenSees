@@ -5,9 +5,26 @@
 #   archivos externos de texto plano que pueden ser interpretados
 #   por otros programas
 
-#para este ejemplo solo repetiremos una linea de texto 3 veces
-
-set lineaDeTexto "Hola soy una linea de texto"
-
-
+# para este ejemplo solo repetiremos una linea de texto 3 veces
 #
+#=============================================================
+#
+# vamos a eliminar el archivo datosExternos.txt 
+# lpara no acumular lineas
+#
+file delete "datosExternos.txt" 
+puts "---------------------------------------------------"
+
+set lineaDeTexto "Hola soy una linea de texto\n"
+set nombreArchivo "datosExternos.txt"
+#modulo de abrir documento para escritura
+set abrirDoc [ open $nombreArchivo "w"] 
+#escribir TRES lineas de texto
+puts -nonewline $abrirDoc $lineaDeTexto 
+puts -nonewline $abrirDoc $lineaDeTexto 
+puts -nonewline $abrirDoc $lineaDeTexto 
+
+#se ha creado el archivo correctamente
+puts "se ha creado el archivo $nombreArchivo con exito"
+puts "-----------------------------------------------------"
+
