@@ -1,6 +1,7 @@
 #este script grafica los datos 
 #de una serie de archivos
 
+print("alistando grafico")
 
 #leyendo un archivo e identificando sus numeros
 Archivo=open("DatosAleatorios.out","r")
