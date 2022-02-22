@@ -50,7 +50,20 @@ mass 11  0.1   0.1   0.1
 mass 22  0.1   0.1   0.1
 mass 33  0.1   0.1   0.1
 
+#para el caso de una estructura isostatica, podemos usar barras
+#rigidas para analizar una estructura isostatica
+rigidLink beam 11 22
+rigidLink beam 22 33
+rigidLink beam 11 33
+puts "---------------------------------------------------"
+puts "> Segunda parte . creando modelo"
+#
+puts "---------------------------------------------------"
+puts "> Segunda parte . creando modelo"
+#
 
 
 
-
+puts "---------------------------------------------------"
+puts "> FINAL: Las reacciones son:"
+#
