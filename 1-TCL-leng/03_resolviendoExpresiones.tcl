@@ -25,3 +25,4 @@ puts [concat "var1 - var2 =" [ expr {$var1-$var2} ]]
 puts [concat "var1 * var2 =" [expr {$var1*$var2}]]
 puts [concat "var1 / var2 =" [expr {$var1/$var2}]]
  
+puts "------------------------------------------------"

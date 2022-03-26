@@ -28,3 +28,4 @@ set expresion {$variable1 + $variable2}
 puts "\nLa expresion guardada es"
 puts $expresion
 
+puts "---------------------------------------"

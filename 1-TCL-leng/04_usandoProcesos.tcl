@@ -23,5 +23,5 @@ sumaDeDosNums 55 888
 #NOTA recuerde que para usar opensees usaremos funciones propias de este sistema y no de tcl
 #estos apuntes son de referencia antes de usar opensees
 
-
+puts "----------------------------------------------------------"
 
